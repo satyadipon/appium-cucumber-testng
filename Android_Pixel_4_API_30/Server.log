@@ -1,0 +1,286 @@
+2021-06-25 21:32:57:028 [Appium] Welcome to Appium v1.18.3
+2021-06-25 21:32:57:029 [Appium] Non-default server args:
+2021-06-25 21:32:57:029 [Appium]   port: 49147
+2021-06-25 21:32:57:030 [Appium]   sessionOverride: true
+2021-06-25 21:32:57:030 [Appium]   logFile: /Users/satya/Downloads/appium-cucumberbdd-testng-master/Android_Pixel_4_API_30/Server.log
+2021-06-25 21:32:57:047 [Appium] Appium REST http interface listener started on 0.0.0.0:49147
+2021-06-25 21:32:57:115 [HTTP] --> GET /wd/hub/status
+2021-06-25 21:32:57:115 [HTTP] {}
+2021-06-25 21:32:57:117 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-06-25 21:32:57:118 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.3"}}
+2021-06-25 21:32:57:122 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2021-06-25 21:32:57:122 [HTTP] 
+2021-06-25 21:32:57:126 [HTTP] --> GET /wd/hub/status
+2021-06-25 21:32:57:126 [HTTP] {}
+2021-06-25 21:32:57:126 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-06-25 21:32:57:127 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.3"}}
+2021-06-25 21:32:57:128 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2021-06-25 21:32:57:129 [HTTP] 
+2021-06-25 21:32:57:485 [HTTP] Request idempotency key: 7b363152-7f1a-4ba4-afc8-d528a8795ccf
+2021-06-25 21:32:57:500 [HTTP] --> POST /wd/hub/session
+2021-06-25 21:32:57:500 [HTTP] {"desiredCapabilities":{"app":"/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11001","platformName":"Android","udid":"emulator-5556","deviceName":"Pixel_4_API_30","systemPort":"10001"},"capabilities":{"firstMatch":[{"appium:app":"/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11001","appium:deviceName":"Pixel_4_API_30","platformName":"android","appium:systemPort":"10001","appium:udid":"emulator-5556"}]}}
+2021-06-25 21:32:57:501 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11001","platformName":"Android","udid":"emulator-5556","deviceName":"Pixel_4_API_30","systemPort":"10001"},null,{"firstMatch":[{"appium:app":"/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11001","appium:deviceName":"Pixel_4_API_30","platformName":"android","appium:systemPort":"10001","appium:udid":"emulator-5556"}]}]
+2021-06-25 21:32:57:501 [BaseDriver] Event 'newSessionRequested' logged at 1624656777501 (03:02:57 GMT+0530 (India Standard Time))
+2021-06-25 21:32:57:504 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-06-25 21:32:57:504 [BaseDriver]   chromeDriverPort
+2021-06-25 21:32:57:792 [Appium] Appium v1.18.3 creating new AndroidUiautomator2Driver (v1.56.1) session
+2021-06-25 21:32:57:792 [Appium] There are no active sessions for cleanup
+2021-06-25 21:32:57:794 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-06-25 21:32:57:795 [BaseDriver] Creating session with W3C capabilities: {
+2021-06-25 21:32:57:795 [BaseDriver]   "alwaysMatch": {
+2021-06-25 21:32:57:795 [BaseDriver]     "appium:chromeDriverPort": "11001",
+2021-06-25 21:32:57:795 [BaseDriver]     "platformName": "android",
+2021-06-25 21:32:57:795 [BaseDriver]     "appium:app": "/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk",
+2021-06-25 21:32:57:795 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-06-25 21:32:57:795 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-06-25 21:32:57:796 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-06-25 21:32:57:796 [BaseDriver]     "appium:deviceName": "Pixel_4_API_30",
+2021-06-25 21:32:57:796 [BaseDriver]     "appium:systemPort": "10001",
+2021-06-25 21:32:57:796 [BaseDriver]     "appium:udid": "emulator-5556"
+2021-06-25 21:32:57:796 [BaseDriver]   },
+2021-06-25 21:32:57:796 [BaseDriver]   "firstMatch": [
+2021-06-25 21:32:57:796 [BaseDriver]     {}
+2021-06-25 21:32:57:797 [BaseDriver]   ]
+2021-06-25 21:32:57:797 [BaseDriver] }
+2021-06-25 21:32:57:798 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-06-25 21:32:57:799 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-06-25 21:32:57:801 [BaseDriver] Capability 'systemPort' changed from string ('10001') to integer (10001). This may cause unexpected behavior
+2021-06-25 21:32:57:802 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11001') to integer (11001). This may cause unexpected behavior
+2021-06-25 21:32:57:804 [BaseDriver] Session created with session id: 68ddb732-6ad8-4263-a1d9-b76d340ed8d8
+2021-06-25 21:32:57:806 [BaseDriver] Using local app '/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk'
+2021-06-25 21:32:57:806 [UiAutomator2] Checking whether app is actually present
+2021-06-25 21:32:57:822 [ADB] Found 3 'build-tools' folders under '/Users/satya/Library/Android/sdk' (newest first):
+2021-06-25 21:32:57:822 [ADB]     /Users/satya/Library/Android/sdk/build-tools/30.0.2
+2021-06-25 21:32:57:822 [ADB]     /Users/satya/Library/Android/sdk/build-tools/29.0.2
+2021-06-25 21:32:57:822 [ADB]     /Users/satya/Library/Android/sdk/build-tools/28.0.3
+2021-06-25 21:32:57:822 [ADB] Using 'adb' from '/Users/satya/Library/Android/sdk/platform-tools/adb'
+2021-06-25 21:32:57:823 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-06-25 21:32:58:112 [AndroidDriver] Retrieving device list
+2021-06-25 21:32:58:112 [ADB] Trying to find a connected android device
+2021-06-25 21:32:58:113 [ADB] Getting connected devices
+2021-06-25 21:32:58:121 [ADB] No connected devices have been detected
+2021-06-25 21:32:58:122 [ADB] Could not find online devices
+2021-06-25 21:32:58:122 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:58:122 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:58:332 [ADB] Getting connected devices
+2021-06-25 21:32:58:340 [ADB] No connected devices have been detected
+2021-06-25 21:32:58:340 [ADB] Could not find online devices
+2021-06-25 21:32:58:340 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:58:341 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:58:554 [ADB] Getting connected devices
+2021-06-25 21:32:58:562 [ADB] No connected devices have been detected
+2021-06-25 21:32:58:562 [ADB] Could not find online devices
+2021-06-25 21:32:58:562 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:58:563 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:58:771 [ADB] Getting connected devices
+2021-06-25 21:32:58:779 [ADB] No connected devices have been detected
+2021-06-25 21:32:58:779 [ADB] Could not find online devices
+2021-06-25 21:32:58:779 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:58:780 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:58:988 [ADB] Getting connected devices
+2021-06-25 21:32:58:996 [ADB] No connected devices have been detected
+2021-06-25 21:32:58:996 [ADB] Could not find online devices
+2021-06-25 21:32:58:996 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:58:997 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:59:206 [ADB] Getting connected devices
+2021-06-25 21:32:59:215 [ADB] No connected devices have been detected
+2021-06-25 21:32:59:215 [ADB] Could not find online devices
+2021-06-25 21:32:59:215 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:59:215 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:59:429 [ADB] Getting connected devices
+2021-06-25 21:32:59:437 [ADB] No connected devices have been detected
+2021-06-25 21:32:59:438 [ADB] Could not find online devices
+2021-06-25 21:32:59:438 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:59:438 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:59:651 [ADB] Getting connected devices
+2021-06-25 21:32:59:658 [ADB] No connected devices have been detected
+2021-06-25 21:32:59:658 [ADB] Could not find online devices
+2021-06-25 21:32:59:658 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:59:659 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:32:59:870 [ADB] Getting connected devices
+2021-06-25 21:32:59:877 [ADB] No connected devices have been detected
+2021-06-25 21:32:59:878 [ADB] Could not find online devices
+2021-06-25 21:32:59:878 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:32:59:878 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:00:086 [ADB] Getting connected devices
+2021-06-25 21:33:00:094 [ADB] No connected devices have been detected
+2021-06-25 21:33:00:094 [ADB] Could not find online devices
+2021-06-25 21:33:00:094 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:00:094 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:00:306 [ADB] Getting connected devices
+2021-06-25 21:33:00:353 [ADB] No connected devices have been detected
+2021-06-25 21:33:00:353 [ADB] Could not find online devices
+2021-06-25 21:33:00:354 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:00:354 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:00:564 [ADB] Getting connected devices
+2021-06-25 21:33:00:572 [ADB] No connected devices have been detected
+2021-06-25 21:33:00:572 [ADB] Could not find online devices
+2021-06-25 21:33:00:572 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:00:573 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:00:781 [ADB] Getting connected devices
+2021-06-25 21:33:00:788 [ADB] No connected devices have been detected
+2021-06-25 21:33:00:788 [ADB] Could not find online devices
+2021-06-25 21:33:00:788 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:00:789 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:01:001 [ADB] Getting connected devices
+2021-06-25 21:33:01:010 [ADB] No connected devices have been detected
+2021-06-25 21:33:01:010 [ADB] Could not find online devices
+2021-06-25 21:33:01:010 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:01:010 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:01:219 [ADB] Getting connected devices
+2021-06-25 21:33:01:228 [ADB] No connected devices have been detected
+2021-06-25 21:33:01:228 [ADB] Could not find online devices
+2021-06-25 21:33:01:228 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:01:229 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:01:438 [ADB] Getting connected devices
+2021-06-25 21:33:01:447 [ADB] No connected devices have been detected
+2021-06-25 21:33:01:448 [ADB] Could not find online devices
+2021-06-25 21:33:01:448 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:01:448 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:01:657 [ADB] Getting connected devices
+2021-06-25 21:33:01:666 [ADB] No connected devices have been detected
+2021-06-25 21:33:01:666 [ADB] Could not find online devices
+2021-06-25 21:33:01:666 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:01:667 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:01:876 [ADB] Getting connected devices
+2021-06-25 21:33:01:884 [ADB] No connected devices have been detected
+2021-06-25 21:33:01:885 [ADB] Could not find online devices
+2021-06-25 21:33:01:885 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:01:885 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:02:095 [ADB] Getting connected devices
+2021-06-25 21:33:02:104 [ADB] No connected devices have been detected
+2021-06-25 21:33:02:104 [ADB] Could not find online devices
+2021-06-25 21:33:02:105 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:02:105 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:02:314 [ADB] Getting connected devices
+2021-06-25 21:33:02:322 [ADB] No connected devices have been detected
+2021-06-25 21:33:02:322 [ADB] Could not find online devices
+2021-06-25 21:33:02:323 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:02:323 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:02:531 [ADB] Getting connected devices
+2021-06-25 21:33:02:540 [ADB] No connected devices have been detected
+2021-06-25 21:33:02:540 [ADB] Could not find online devices
+2021-06-25 21:33:02:540 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:02:540 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:02:753 [ADB] Getting connected devices
+2021-06-25 21:33:02:760 [ADB] No connected devices have been detected
+2021-06-25 21:33:02:761 [ADB] Could not find online devices
+2021-06-25 21:33:02:761 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:02:761 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:02:971 [ADB] Getting connected devices
+2021-06-25 21:33:02:978 [ADB] No connected devices have been detected
+2021-06-25 21:33:02:978 [ADB] Could not find online devices
+2021-06-25 21:33:02:978 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:02:978 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:03:189 [ADB] Getting connected devices
+2021-06-25 21:33:03:197 [ADB] No connected devices have been detected
+2021-06-25 21:33:03:198 [ADB] Could not find online devices
+2021-06-25 21:33:03:198 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:03:198 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:03:406 [ADB] Getting connected devices
+2021-06-25 21:33:03:413 [ADB] No connected devices have been detected
+2021-06-25 21:33:03:414 [ADB] Could not find online devices
+2021-06-25 21:33:03:414 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:03:414 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:03:623 [ADB] Getting connected devices
+2021-06-25 21:33:03:630 [ADB] No connected devices have been detected
+2021-06-25 21:33:03:630 [ADB] Could not find online devices
+2021-06-25 21:33:03:630 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:03:631 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:03:842 [ADB] Getting connected devices
+2021-06-25 21:33:03:853 [ADB] No connected devices have been detected
+2021-06-25 21:33:03:854 [ADB] Could not find online devices
+2021-06-25 21:33:03:854 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:03:854 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:04:062 [ADB] Getting connected devices
+2021-06-25 21:33:04:071 [ADB] No connected devices have been detected
+2021-06-25 21:33:04:071 [ADB] Could not find online devices
+2021-06-25 21:33:04:071 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:04:071 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:04:283 [ADB] Getting connected devices
+2021-06-25 21:33:04:291 [ADB] No connected devices have been detected
+2021-06-25 21:33:04:292 [ADB] Could not find online devices
+2021-06-25 21:33:04:292 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:04:292 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:04:504 [ADB] Getting connected devices
+2021-06-25 21:33:04:511 [ADB] No connected devices have been detected
+2021-06-25 21:33:04:511 [ADB] Could not find online devices
+2021-06-25 21:33:04:511 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:04:512 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:04:721 [ADB] Getting connected devices
+2021-06-25 21:33:04:730 [ADB] No connected devices have been detected
+2021-06-25 21:33:04:730 [ADB] Could not find online devices
+2021-06-25 21:33:04:730 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:04:731 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:04:939 [ADB] Getting connected devices
+2021-06-25 21:33:04:948 [ADB] No connected devices have been detected
+2021-06-25 21:33:04:948 [ADB] Could not find online devices
+2021-06-25 21:33:04:948 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:04:948 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:05:160 [ADB] Getting connected devices
+2021-06-25 21:33:05:171 [ADB] No connected devices have been detected
+2021-06-25 21:33:05:172 [ADB] Could not find online devices
+2021-06-25 21:33:05:172 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:05:172 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:05:381 [ADB] Getting connected devices
+2021-06-25 21:33:05:389 [ADB] No connected devices have been detected
+2021-06-25 21:33:05:390 [ADB] Could not find online devices
+2021-06-25 21:33:05:390 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:05:390 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:05:600 [ADB] Getting connected devices
+2021-06-25 21:33:05:607 [ADB] No connected devices have been detected
+2021-06-25 21:33:05:607 [ADB] Could not find online devices
+2021-06-25 21:33:05:607 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:05:608 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:05:818 [ADB] Getting connected devices
+2021-06-25 21:33:05:826 [ADB] No connected devices have been detected
+2021-06-25 21:33:05:827 [ADB] Could not find online devices
+2021-06-25 21:33:05:827 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:05:827 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:06:035 [ADB] Getting connected devices
+2021-06-25 21:33:06:044 [ADB] No connected devices have been detected
+2021-06-25 21:33:06:045 [ADB] Could not find online devices
+2021-06-25 21:33:06:045 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:06:045 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:06:257 [ADB] Getting connected devices
+2021-06-25 21:33:06:266 [ADB] No connected devices have been detected
+2021-06-25 21:33:06:266 [ADB] Could not find online devices
+2021-06-25 21:33:06:266 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:06:267 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:06:477 [ADB] Getting connected devices
+2021-06-25 21:33:06:485 [ADB] No connected devices have been detected
+2021-06-25 21:33:06:485 [ADB] Could not find online devices
+2021-06-25 21:33:06:485 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:06:485 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:06:694 [ADB] Getting connected devices
+2021-06-25 21:33:06:703 [ADB] No connected devices have been detected
+2021-06-25 21:33:06:703 [ADB] Could not find online devices
+2021-06-25 21:33:06:703 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:06:703 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:06:913 [ADB] Getting connected devices
+2021-06-25 21:33:06:922 [ADB] No connected devices have been detected
+2021-06-25 21:33:06:922 [ADB] Could not find online devices
+2021-06-25 21:33:06:923 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:06:923 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:07:133 [ADB] Getting connected devices
+2021-06-25 21:33:07:140 [ADB] No connected devices have been detected
+2021-06-25 21:33:07:140 [ADB] Could not find online devices
+2021-06-25 21:33:07:140 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:07:141 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:07:348 [ADB] Getting connected devices
+2021-06-25 21:33:07:356 [ADB] No connected devices have been detected
+2021-06-25 21:33:07:359 [ADB] Could not find online devices
+2021-06-25 21:33:07:359 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:07:359 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:07:508 [Appium] Received SIGINT - shutting down
+2021-06-25 21:33:07:509 [Appium] There are no active sessions for cleanup
+2021-06-25 21:33:07:567 [ADB] Getting connected devices
+2021-06-25 21:33:07:576 [ADB] No connected devices have been detected
+2021-06-25 21:33:07:576 [ADB] Could not find online devices
+2021-06-25 21:33:07:576 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:07:576 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'
+2021-06-25 21:33:07:787 [ADB] Getting connected devices
+2021-06-25 21:33:07:796 [ADB] No connected devices have been detected
+2021-06-25 21:33:07:796 [ADB] Could not find online devices
+2021-06-25 21:33:07:796 [ADB] Reconnecting adb (target offline)
+2021-06-25 21:33:07:796 [ADB] Running '/Users/satya/Library/Android/sdk/platform-tools/adb -P 5037 reconnect offline'

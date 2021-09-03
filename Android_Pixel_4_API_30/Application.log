@@ -1,0 +1,6 @@
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:54.243 ServerManager:20 - starting appium server
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:57.129 ServerManager:29 - Appium server started
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:57.155 DriverManager:28 - initializing Appium driver
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:57.170 PropertyManager:17 - loading config properties
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:57.171 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_4_API_30 INFO ] 2021-06-26 03:02:57.173 CapabilitiesManager:34 - appUrl is/Users/satya/Downloads/appium-cucumberbdd-testng-master/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
